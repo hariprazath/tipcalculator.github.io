@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(37, 40, 82);
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.mainDiv {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+.box {
+    margin: 30px;
+}
+
+.lable {
+    margin: 15px 0;
+}
+
+.numberOfPeople {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin: 0 50px;
+}
+
+.currencySign {
+    border: 1px solid lightblue;
+    border-right: 0;
+    padding: 12px 0;
+    background-color: rgb(31, 34, 68);
+}
+
+.currencyInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=number] {
+    padding: 12px 10px;
+    margin: 8px 0;
+    background-color: rgb(31, 34, 68);
+    border: 1px solid lightblue;
+    border-left: 0;
+    color: aliceblue;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    background-color: whitesmoke;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    color: rgb(46, 51, 98);
+    font-size: 30px;
+    margin: 0 20px;
+    transition-duration: 0.1s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:hover {
+    color: aliceblue;
+    background-color: rgb(31, 34, 68);
+    border: 1px solid white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+button:active {
+    color: aliceblue;
+    background-color: rgb(59, 65, 121);
+    border: 1px solid white;
+}
